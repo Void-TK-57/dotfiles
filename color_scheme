@@ -1,0 +1,45 @@
+#
+# Simple list of commom Color Codes for future references
+#
+# color saved in format
+# [Name] alias
+# format: code
+#
+# Example:
+#
+# [red] Red
+# hex: #FF0000
+#
+
+[neon_cyan] Neon Cyan
+hex: #4dfdfd
+
+[light_cyan] Light Cyan
+hex: #9ffdfd
+
+[light_neon_cyan] Light Neon Cyan
+hex: #01FFFF
+
+[light_red] Salmon
+hex: #f02b62
+
+[pink] Pink
+hex: #fe38bc
+
+[pink_shock] Shock Pink
+hex: #ff2281
+
+[neon_purple] Neon Purple
+hex: #7122fa
+
+[blue_purple] Blueish Purple
+hex: #535eeb
+
+[cyan_green] Cyan Green
+hex: #00feca
+
+[ufo_green] UFO Green Corrected
+hex: #13ca91 
+
+[neon_green] Neon Green
+hex: #4dfd4d
