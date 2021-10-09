@@ -1,14 +1,17 @@
 #
 # wm independent hotkeys
 #
-
+  
 # terminal emulator
 super + Return
 	alacritty
 
-# program launcher
+# program launchers
 super + d
-	dmenu_run
+	rofi -show combi -combi-modi "window,drun" -modi combi
+
+super + @space
+        rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -66,9 +69,13 @@ super + {p,b,comma,period}
 super + {_,shift + }c
 	bspc node -f {next,prev}.local.!hidden.window
 
-# focus the next/previous desktop in the current monitor
-super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
+# focus the next/previous desktop
+super + button{4,5}
+    bspc desktop {next,prev} -f
+
+# focues the next/previous occupied occupied
+super + shift + button{4,5}
+	bspc desktop {next,prev}.occupied -f
 
 # focus the last node/desktop
 super + {grave,Tab}
@@ -119,6 +126,22 @@ super + alt + shift + {Left,Down,Up,Right}
 # move a floating window
 super + ctrl + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+#
+# Spotify
+#
+
+# pause/play music
+super + shift + m
+	dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+
+# previous music
+super + shift + p
+	dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+
+# next music
+super + shift + n
+	dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
 
 #
 # screenshot

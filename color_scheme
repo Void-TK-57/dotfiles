@@ -26,6 +26,9 @@ hex: #f02b62
 [pink] Pink
 hex: #fe38bc
 
+[neon_pink] Neon Pink
+hex: #f5248a
+
 [pink_shock] Shock Pink
 hex: #ff2281
 
@@ -39,7 +42,43 @@ hex: #535eeb
 hex: #00feca
 
 [ufo_green] UFO Green Corrected
-hex: #13ca91 
+hex: #13ca91
 
 [neon_green] Neon Green
 hex: #4dfd4d
+
+[dracula_black] Raisin Black (Dracula Theme)
+hex: #23212c
+
+[dracula_grey] Independence (Dracula Theme)
+hex: #454158
+
+[dracula_toned_purple] Middle Blue Purple (Dracula Theme)
+hex: #7970a9
+
+[dracula_light_purple] Medium Purple (Dracula Theme)
+hex: #9284f6
+
+[dracula_purple] Lavender Floral (Dracula Theme)
+hex: #a280d6
+
+[dracula_green] Spring Green (Dracula Theme)
+hex: #4fed77
+
+[dracula_cyan] Sky Blue Cryola (Dracula Theme)
+hex: #87e2f6
+
+[dracula_yellow] Canary (Dracula Theme)
+hex: #fffe92
+
+[dracula_red] Fire Opal (Dracula Theme)
+hex: #ee625b
+
+[dracula_magenta] Persian Pink (Dracula Theme)
+hex: #e36fb3
+
+[dracula_orange] Gold Crayola (Dracula Theme)
+gex: #f7ca9a
+
+[dracula_blue] French Sky Blue (Dracula Theme)
+hex: #8fb5fa

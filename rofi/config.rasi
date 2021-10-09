@@ -1,0 +1,12 @@
+/* Rofi config file */
+configuration {
+    show-icons: false;
+    display-window: "Window";
+    display-drun: "Search";
+}
+
+@theme "dracula"
+
+listview {
+    lines: 12;
+}

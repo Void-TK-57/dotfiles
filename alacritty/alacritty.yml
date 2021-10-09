@@ -114,7 +114,7 @@ font:
     family: JetBrains Mono
 
     # The `style` can be specified to pick a specific face.
-    style: Regular
+    style: Bold
 
   # Bold font face
   #bold:
@@ -179,8 +179,8 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#000000'
-    foreground: '#f9f9f9'
+    background: '#23212c'
+    foreground: '#ffffff'
 
     # Bright and dim foreground colors
     #
@@ -267,41 +267,39 @@ colors:
   #  background: CellForeground
 
   # Normal colors
-  #normal:
-    black:   '#1d1d1d'
-    red:     '#fd4d4d'
-    green:   '#4dfd4d'
-    yellow:  '#fdfd4d'
-    blue:    '#4d4dfd'
-    magenta: '#fd4dfd'
-    cyan:    '#4dfdfd'
-    white:   '#fdfdfd'
+  normal:
+    black:   '#141319'
+    red:     '#ee625b'
+    green:   '#4fed77'
+    yellow:  '#fffe92'
+    blue:    '#87e2f6'
+    magenta: '#e36fb3'
+    cyan:    '#a280d6'
+    white:   '#ffffff'
 
   # Bright colors
   bright:
-    black:   '#1d1d1d'
-    red:     '#fd4d4d'
-    green:   '#4dfd4d'
-    yellow:  '#fdfd4d'
-    blue:    '#4d4dfd'
-    magenta: '#fd4dfd'
-    cyan:    '#4dfdfd'
-    white:   '#fdfdfd'
-
+    black:   '#141319'
+    red:     '#ee625b'
+    green:   '#4fed77'
+    yellow:  '#fffe92'
+    blue:    '#87e2f6'
+    magenta: '#e36fb3'
+    cyan:    '#a280d6'
+    white:   '#ffffff'
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
   # on the `normal` colors.
   dim:
-    black:   '#1d1d1d'
-    red:     '#fd4d4d'
-    green:   '#4dfd4d'
-    yellow:  '#fdfd4d'
-    blue:    '#4d4dfd'
-    magenta: '#fd4dfd'
-    cyan:    '#4dfdfd'
-    white:   '#fdfdfd'
-
+    black:   '#141319'
+    red:     '#ee625b'
+    green:   '#4fed77'
+    yellow:  '#fffe92'
+    blue:    '#87e2f6'
+    magenta: '#e36fb3'
+    cyan:    '#a280d6'
+    white:   '#ffffff'
   # Indexed Colors
   #
   # The indexed colors include all colors from 16 to 256.
@@ -357,7 +355,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-#background_opacity: 1.0
+background_opacity: 0.473
 
 #selection:
   # This string contains all characters that are used as separators for
